@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@egoist/tailwindcss-icons':
-        specifier: ^1.3.3
-        version: 1.3.3(tailwindcss@3.3.3)
+        specifier: ^1.4.0
+        version: 1.4.0(tailwindcss@3.3.3)
       '@headlessui/tailwindcss':
         specifier: ^0.2.0
         version: 0.2.0(tailwindcss@3.3.3)
@@ -18,8 +18,8 @@ importers:
         specifier: ^1.7.16
         version: 1.7.16(vue@3.3.4)
       '@iconify-json/heroicons':
-        specifier: ^1.1.12
-        version: 1.1.12
+        specifier: ^1.1.13
+        version: 1.1.13
       '@nuxt/kit':
         specifier: ^3.7.4
         version: 3.7.4(rollup@3.29.1)
@@ -122,11 +122,11 @@ importers:
         version: link:..
     devDependencies:
       '@iconify-json/heroicons':
-        specifier: ^1.1.12
-        version: 1.1.12
+        specifier: ^1.1.13
+        version: 1.1.13
       '@iconify-json/simple-icons':
-        specifier: ^1.1.74
-        version: 1.1.74
+        specifier: ^1.1.75
+        version: 1.1.75
       '@nuxt/content':
         specifier: ^2.8.5
         version: 2.8.5(rollup@3.29.1)(vue@3.3.4)
@@ -137,8 +137,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(eslint@8.51.0)
       '@nuxt/ui-pro':
-        specifier: npm:@nuxt/ui-pro-edge@0.2.1-28285233.44132bc
-        version: /@nuxt/ui-pro-edge@0.2.1-28285233.44132bc(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2)
+        specifier: npm:@nuxt/ui-pro-edge@0.2.1-28292426.a862ff8
+        version: /@nuxt/ui-pro-edge@0.2.1-28292426.a862ff8(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2)
       '@nuxthq/studio':
         specifier: ^0.14.1
         version: 0.14.1(rollup@3.29.1)
@@ -170,8 +170,8 @@ importers:
         specifier: ^0.5.4
         version: 0.5.4(rollup@3.29.1)
       nuxt-og-image:
-        specifier: ^2.1.2
-        version: 2.1.2(rollup@3.29.1)(vue@3.3.4)
+        specifier: ^2.1.3
+        version: 2.1.3(rollup@3.29.1)(vue@3.3.4)
       prettier:
         specifier: ^3.0.3
         version: 3.0.3
@@ -182,8 +182,8 @@ importers:
         specifier: ^1.3.1
         version: 1.3.1
       v-calendar:
-        specifier: ^3.1.1
-        version: 3.1.1(@popperjs/core@2.11.8)(vue@3.3.4)
+        specifier: ^3.1.2
+        version: 3.1.2(@popperjs/core@2.11.8)(vue@3.3.4)
       valibot:
         specifier: ^0.19.0
         version: 0.19.0
@@ -591,8 +591,8 @@ packages:
     dependencies:
       postcss-selector-parser: 6.0.13
 
-  /@egoist/tailwindcss-icons@1.3.3(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-17TSHLxrjfVuvIeHF7FmyfqxCy4aga5y6n8Bnyi4tYg9qPRf4fr0VIXQFn7P8TYFq4dmtXSowvSpAZg/aQgcPw==}
+  /@egoist/tailwindcss-icons@1.4.0(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-ERM7F8culmN3CADiqxnvVN4GnCDVaexbn+UG/w6NiRnI85JX/St9Ru1d+/1R80JHYBx4frdLQl9h01b0TwAZ+Q==}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
@@ -1110,13 +1110,13 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
-  /@iconify-json/heroicons@1.1.12:
-    resolution: {integrity: sha512-9tsn/xUU+HX56OngEDRTej4LzVm2qcMVLvEJ+q+1ZJBO4sjMDxycmbHq16HGl1LOeVG21fq4jNZHslVveVCwSQ==}
+  /@iconify-json/heroicons@1.1.13:
+    resolution: {integrity: sha512-WsRTTc0qGDreszIgL9uVpPSnRlM2bXaKmK3E0zpQZloUZQX3FokDqGFgc0UbJ+8np/ta571Ty+8n78mlMhEU8w==}
     dependencies:
       '@iconify/types': 2.0.0
 
-  /@iconify-json/simple-icons@1.1.74:
-    resolution: {integrity: sha512-KlDN8k/8LyWWe+i1ErGmMHWFbiAFvz1R8ifkXI05vHt0K3Z6Ce1uDZY20CbQVhbwIFStS0fVdJAlYhcL7MYvVg==}
+  /@iconify-json/simple-icons@1.1.75:
+    resolution: {integrity: sha512-oGVandyvqMtBb7iq33Lx5YnH0SBkCE6LwpWPM0vjsIRSwXYpw5fxsSs3jfyikOr4Fwr8G24GjSsb53AC+lgGBQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1195,6 +1195,7 @@ packages:
   /@koa/router@9.4.0:
     resolution: {integrity: sha512-dOOXgzqaDoHu5qqMEPLKEgLz5CeIA7q8+1W62mCvFVCOqeC71UoTGJ4u1xUSOpIl2J1x2pqrNULkFteUeZW3/A==}
     engines: {node: '>= 8.0.0'}
+    deprecated: '**IMPORTANT 10x+ PERFORMANCE UPGRADE**: Please upgrade to v12.0.1+ as we have fixed an issue with debuglog causing 10x slower router benchmark performance, see https://github.com/koajs/router/pull/173'
     dependencies:
       debug: 4.3.4
       http-errors: 1.8.1
@@ -1609,14 +1610,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/ui-edge@2.9.0-28285097.92b8618(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2):
-    resolution: {integrity: sha512-1QEaXZdezS5Q5tXLfg7U5jCVhGm75he9B65YHXaTkuc3Y15jg450Qh8jwYQxFkaHmu6CwG1dOlJdM9l4OmwKPA==}
+  /@nuxt/ui-edge@2.9.0-28285290.0bd12fd(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2):
+    resolution: {integrity: sha512-J3WPjXDnshda9gLTx/TEyItSUvkdZxXW+rEM+4I7ZxWu0iHDdmjJ8JpXQMFOxdQgAGyUr7xangkoWwIfJ9Mm7w==}
     engines: {node: '>=v16.20.2'}
     dependencies:
-      '@egoist/tailwindcss-icons': 1.3.3(tailwindcss@3.3.3)
+      '@egoist/tailwindcss-icons': 1.4.0(tailwindcss@3.3.3)
       '@headlessui/tailwindcss': 0.2.0(tailwindcss@3.3.3)
       '@headlessui/vue': 1.7.16(vue@3.3.4)
-      '@iconify-json/heroicons': 1.1.12
+      '@iconify-json/heroicons': 1.1.13
       '@nuxt/kit': 3.7.4(rollup@3.29.1)
       '@nuxtjs/color-mode': 3.3.0(rollup@3.29.1)
       '@nuxtjs/tailwindcss': 6.8.0(rollup@3.29.1)(webpack@5.88.2)
@@ -1655,10 +1656,10 @@ packages:
       - webpack
     dev: true
 
-  /@nuxt/ui-pro-edge@0.2.1-28285233.44132bc(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2):
-    resolution: {integrity: sha512-9lqJ96k9itsImeNdRf+dKoAE5ADjPl1NeGgQZJ1Y3pGxQkTX6k6/f/i8J5gxS7McIWq1oInV9iPH+ZAAIJa0hQ==}
+  /@nuxt/ui-pro-edge@0.2.1-28292426.a862ff8(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2):
+    resolution: {integrity: sha512-l/RQ4fs/Xw5mhmvdqH3txsw9NKiF66J4hM6KLxt+JXLh9szAoM6cV+NAjS19NTGJzWT6ebqfTYW8o0aYUKncCA==}
     dependencies:
-      '@nuxt/ui': /@nuxt/ui-edge@2.9.0-28285097.92b8618(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2)
+      '@nuxt/ui': /@nuxt/ui-edge@2.9.0-28285290.0bd12fd(rollup@3.29.1)(vue@3.3.4)(webpack@5.88.2)
       '@vueuse/core': 10.5.0(vue@3.3.4)
       defu: 6.1.2
       nuxt-icon: 0.5.0(rollup@3.29.1)(vue@3.3.4)
@@ -4696,8 +4697,8 @@ packages:
     engines: {node: '>= 14'}
     dev: true
 
-  /date-fns-tz@1.3.8(date-fns@2.30.0):
-    resolution: {integrity: sha512-qwNXUFtMHTTU6CFSFjoJ80W8Fzzp24LntbjFFBgL/faqds4e5mo9mftoRLgr3Vi1trISsg4awSpYVsOQCRnapQ==}
+  /date-fns-tz@2.0.0(date-fns@2.30.0):
+    resolution: {integrity: sha512-OAtcLdB9vxSXTWHdT8b398ARImVwQMyjfYGkKD2zaGpHseG2UPHbHjXELReErZFxWdSLph3c2zOaaTyHfOhERQ==}
     peerDependencies:
       date-fns: '>=2.0.0'
     dependencies:
@@ -6111,6 +6112,7 @@ packages:
   /has-flag@3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
+    requiresBuild: true
 
   /has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
@@ -7008,6 +7010,7 @@ packages:
 
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    requiresBuild: true
 
   /js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
@@ -8787,8 +8790,8 @@ packages:
       - vue
     dev: true
 
-  /nuxt-og-image@2.1.2(rollup@3.29.1)(vue@3.3.4):
-    resolution: {integrity: sha512-O5/bYh50Mvbc5sjuHXqAw9p4CQCK/dYrAZnlTEdkY+hfL+8of285rptRUqbmR6AYr8eBWJ8N1yoMuTqvKjntDw==}
+  /nuxt-og-image@2.1.3(rollup@3.29.1)(vue@3.3.4):
+    resolution: {integrity: sha512-ro9DrArtnBZNtITnDLZPrHoyF4KQIYc2tADkZWIdHchY34O5csyCF77kR7dxfvP/1jXrL8kG2HULoNzmS5/uug==}
     dependencies:
       '@nuxt/kit': 3.7.4(rollup@3.29.1)
       '@resvg/resvg-js': 2.4.1
@@ -11887,8 +11890,8 @@ packages:
       sade: 1.8.1
     dev: true
 
-  /v-calendar@3.1.1(@popperjs/core@2.11.8)(vue@3.3.4):
-    resolution: {integrity: sha512-9ZgHOcbg97TGyokcFE8yVNwjzu8pUxSMnUMHh/1flSTM8Uof2GLqiu5f00+nl30hooK149ScdIb74VZebUfmvA==}
+  /v-calendar@3.1.2(@popperjs/core@2.11.8)(vue@3.3.4):
+    resolution: {integrity: sha512-QDWrnp4PWCpzUblctgo4T558PrHgHzDtQnTeUNzKxfNf29FkCeFpwGd9bKjAqktaa2aJLcyRl45T5ln1ku34kg==}
     peerDependencies:
       '@popperjs/core': ^2.0.0
       vue: ^3.2.0
@@ -11897,7 +11900,7 @@ packages:
       '@types/lodash': 4.14.197
       '@types/resize-observer-browser': 0.1.7
       date-fns: 2.30.0
-      date-fns-tz: 1.3.8(date-fns@2.30.0)
+      date-fns-tz: 2.0.0(date-fns@2.30.0)
       lodash: 4.17.21
       vue: 3.3.4
       vue-screen-utils: 1.0.0-beta.13(vue@3.3.4)
